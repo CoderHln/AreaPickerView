@@ -15,6 +15,14 @@
 		6587A53221D5BFCE00C66E0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6587A53121D5BFCE00C66E0F /* main.m */; };
 		6587A53C21D5BFCE00C66E0F /* AreaPickViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6587A53B21D5BFCE00C66E0F /* AreaPickViewTests.m */; };
 		6587A54721D5BFCE00C66E0F /* AreaPickViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6587A54621D5BFCE00C66E0F /* AreaPickViewUITests.m */; };
+		6587A55721D5C11A00C66E0F /* LNAddressProvinceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6587A55621D5C11A00C66E0F /* LNAddressProvinceModel.m */; };
+		6587A55A21D5C14700C66E0F /* LNAddressCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6587A55921D5C14700C66E0F /* LNAddressCityModel.m */; };
+		6587A55D21D5C19D00C66E0F /* LNAddressCountyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6587A55C21D5C19D00C66E0F /* LNAddressCountyModel.m */; };
+		6587A56021D5C1C800C66E0F /* LNAreaPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6587A55F21D5C1C800C66E0F /* LNAreaPickView.m */; };
+		6587A56321D5C22600C66E0F /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6587A56221D5C22600C66E0F /* UIView+Frame.m */; };
+		6587A56621D5CAB900C66E0F /* LNAddressStreetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6587A56521D5CAB900C66E0F /* LNAddressStreetModel.m */; };
+		6587A56821D5D01900C66E0F /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6587A56721D5D01900C66E0F /* area.plist */; };
+		6587A56A21D5EC3500C66E0F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6587A56921D5EC3500C66E0F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,20 @@
 		6587A54221D5BFCE00C66E0F /* AreaPickViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AreaPickViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6587A54621D5BFCE00C66E0F /* AreaPickViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AreaPickViewUITests.m; sourceTree = "<group>"; };
 		6587A54821D5BFCE00C66E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6587A55521D5C11A00C66E0F /* LNAddressProvinceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAddressProvinceModel.h; sourceTree = "<group>"; };
+		6587A55621D5C11A00C66E0F /* LNAddressProvinceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAddressProvinceModel.m; sourceTree = "<group>"; };
+		6587A55821D5C14700C66E0F /* LNAddressCityModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAddressCityModel.h; sourceTree = "<group>"; };
+		6587A55921D5C14700C66E0F /* LNAddressCityModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAddressCityModel.m; sourceTree = "<group>"; };
+		6587A55B21D5C19D00C66E0F /* LNAddressCountyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAddressCountyModel.h; sourceTree = "<group>"; };
+		6587A55C21D5C19D00C66E0F /* LNAddressCountyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAddressCountyModel.m; sourceTree = "<group>"; };
+		6587A55E21D5C1C800C66E0F /* LNAreaPickView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAreaPickView.h; sourceTree = "<group>"; };
+		6587A55F21D5C1C800C66E0F /* LNAreaPickView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAreaPickView.m; sourceTree = "<group>"; };
+		6587A56121D5C22600C66E0F /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		6587A56221D5C22600C66E0F /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		6587A56421D5CAB900C66E0F /* LNAddressStreetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNAddressStreetModel.h; sourceTree = "<group>"; };
+		6587A56521D5CAB900C66E0F /* LNAddressStreetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNAddressStreetModel.m; sourceTree = "<group>"; };
+		6587A56721D5D01900C66E0F /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		6587A56921D5EC3500C66E0F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +123,8 @@
 		6587A52121D5BFB400C66E0F /* AreaPickView */ = {
 			isa = PBXGroup;
 			children = (
+				6587A56921D5EC3500C66E0F /* README.md */,
+				6587A55421D5C0DD00C66E0F /* AreaPickView */,
 				6587A52221D5BFB500C66E0F /* AppDelegate.h */,
 				6587A52321D5BFB500C66E0F /* AppDelegate.m */,
 				6587A52521D5BFB500C66E0F /* ViewController.h */,
@@ -130,6 +154,26 @@
 				6587A54821D5BFCE00C66E0F /* Info.plist */,
 			);
 			path = AreaPickViewUITests;
+			sourceTree = "<group>";
+		};
+		6587A55421D5C0DD00C66E0F /* AreaPickView */ = {
+			isa = PBXGroup;
+			children = (
+				6587A56721D5D01900C66E0F /* area.plist */,
+				6587A55521D5C11A00C66E0F /* LNAddressProvinceModel.h */,
+				6587A55621D5C11A00C66E0F /* LNAddressProvinceModel.m */,
+				6587A55821D5C14700C66E0F /* LNAddressCityModel.h */,
+				6587A55921D5C14700C66E0F /* LNAddressCityModel.m */,
+				6587A55B21D5C19D00C66E0F /* LNAddressCountyModel.h */,
+				6587A55C21D5C19D00C66E0F /* LNAddressCountyModel.m */,
+				6587A56421D5CAB900C66E0F /* LNAddressStreetModel.h */,
+				6587A56521D5CAB900C66E0F /* LNAddressStreetModel.m */,
+				6587A55E21D5C1C800C66E0F /* LNAreaPickView.h */,
+				6587A55F21D5C1C800C66E0F /* LNAreaPickView.m */,
+				6587A56121D5C22600C66E0F /* UIView+Frame.h */,
+				6587A56221D5C22600C66E0F /* UIView+Frame.m */,
+			);
+			path = AreaPickView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6587A52F21D5BFCE00C66E0F /* LaunchScreen.storyboard in Resources */,
+				6587A56821D5D01900C66E0F /* area.plist in Resources */,
+				6587A56A21D5EC3500C66E0F /* README.md in Resources */,
 				6587A52C21D5BFCD00C66E0F /* Assets.xcassets in Resources */,
 				6587A52A21D5BFB500C66E0F /* Main.storyboard in Resources */,
 			);
@@ -262,8 +308,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6587A56321D5C22600C66E0F /* UIView+Frame.m in Sources */,
+				6587A56621D5CAB900C66E0F /* LNAddressStreetModel.m in Sources */,
 				6587A52721D5BFB500C66E0F /* ViewController.m in Sources */,
 				6587A53221D5BFCE00C66E0F /* main.m in Sources */,
+				6587A55D21D5C19D00C66E0F /* LNAddressCountyModel.m in Sources */,
+				6587A55A21D5C14700C66E0F /* LNAddressCityModel.m in Sources */,
+				6587A55721D5C11A00C66E0F /* LNAddressProvinceModel.m in Sources */,
+				6587A56021D5C1C800C66E0F /* LNAreaPickView.m in Sources */,
 				6587A52421D5BFB500C66E0F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
